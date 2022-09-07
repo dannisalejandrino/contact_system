@@ -1,0 +1,10 @@
+Add .env file and copy from .env.example content
+
+Update file via
+Composer install
+
+php artisan key:generate
+php artisan config:cache
+
+npm install
+npm run build
